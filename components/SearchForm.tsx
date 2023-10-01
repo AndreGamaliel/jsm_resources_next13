@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import { Input } from "@/components/ui/input"
-import { Router, SearchCheck } from 'lucide-react'
 import { formUrlQuery } from '@/sanity/utils'
 import { usePathname, useSearchParams, useRouter } from 'next/navigation'
 
