@@ -15,7 +15,7 @@ const Header = ({query, category}: Props) => {
   if(query){
     return(
       <h1 className='heading3 self-start text-white-800'>
-        Search Results For "{query}"
+        Search Results For {query}
       </h1>
     )
   }
